@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container{
+  background-color: black;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+form {
+  background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0)); 
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(50px); 
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.1);
+  transition: all linear 0.5s;
+  cursor: pointer;
+}
+
+form:hover{
+  border: 1px solid white;
+}
+
+.style-bar{
+  border: none !important;
+  border-radius: 6px;
+}
